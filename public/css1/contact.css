@@ -1,0 +1,480 @@
+
+/*---------------------------contact(annam's css)--------------------------*/
+
+.Contact-Details{
+    font-family: 'FranklinGothic-Book';
+    background-color: #fff;
+    padding: 40px 0px;
+    margin: 0px auto;
+    font-size: 16px;
+    margin-top: 80px;
+}
+.Contact-Details h2 {
+    color: #2b88d9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+.register-form {
+    background-color: #f5f5f5;
+    margin: 40px 0px 60px 0px;
+    padding: 50px 70px 30px 70px;
+    border: none;
+    border-radius: 2px;
+}
+.register-form:hover {
+-moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	
+}
+.register-form .form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #cdcdcd;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d2d2d2;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.register-form .form-control::-webkit-input-placeholder {
+   color: #cdcdcd;
+}
+
+.register-form .form-control:-moz-placeholder { / Firefox 18- /
+   color: #cdcdcd;
+}
+
+.register-form .form-control::-moz-placeholder {  / Firefox 19+ /
+   color: #cdcdcd;
+}
+
+.register-form .form-control:-ms-input-placeholder {  
+   color: #cdcdcd;
+}
+.btn-register1-form {
+	 display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	background-color:#2b88d9;
+	width: 100%;
+	color:#fff;
+	display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+   height:40px;
+   margin-top:5px;
+   text-transform:uppercase;
+}
+/* Sweep To Left */
+.btn-register1-form:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.btn-register1-form:hover, .btn-register1-form:focus, .btn-register1-form:active {
+  color: #2b88d9;
+
+   border: 1px solid #2b88d9;
+}
+.btn-register1-form:hover:before, .btn-register1-form:focus:before, .btn-register1-form:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.contact-detail-parag {
+    padding: 0px 0px 10px 0px;
+	font-size:18px;
+}
+.contact-detail-parag p{
+}
+.register-form .form-control.textarea-log {
+    display: block;
+    width: 100%;
+    height: 120px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #cdcdcd;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d2d2d2;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+/*------------------------------Login-Page(annam's css)--------------------------*/
+
+
+.Login-Details{
+    font-family: 'FranklinGothic-Book';
+    background-color: #fff;
+    padding: 40px 0px;
+    margin: 0px auto;
+    font-size: 16px;
+    margin-top: 80px;
+}
+.Login-Details h2 {
+    color: #2b88d9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+.login-form {
+    background-color: #f5f5f5;
+    margin: 40px 0px 60px 0px;
+    padding: 50px 70px 30px 70px;
+    border: none;
+    border-radius: 2px;
+}
+
+.login-form:hover {
+-moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	
+}
+.login-form .form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #cdcdcd;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d2d2d2;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.login-form .form-control::-webkit-input-placeholder {
+   color: #cdcdcd;
+}
+
+.login-form .form-control:-moz-placeholder { / Firefox 18- /
+   color: #cdcdcd;
+}
+
+.login-form .form-control::-moz-placeholder {  / Firefox 19+ /
+   color: #cdcdcd;
+}
+
+.login-form .form-control:-ms-input-placeholder {  
+   color: #cdcdcd;
+}
+.btn-login-form {
+	 display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 8px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	background-color:#2b88d9;
+	width: 100%;
+	color:#fff;
+	display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+   height:40px;
+   margin-top:5px;
+   text-transform:uppercase;
+}
+/* Sweep To Left */
+.btn-login-form:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.btn-login-form:hover, .btn-login-form:focus, .btn-login-form:active {
+  color: #2b88d9;
+
+   border: 1px solid #2b88d9;
+}
+.btn-login-form:hover:before, .btn-login-form:focus:before, .btn-register1-formbtn-login-form:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.Login-detail-parag {
+    padding: 0px 0px 10px 0px;
+}
+.Login-detail-parag a{
+	padding:0px 0px;
+}
+.forgot-password{
+	
+}
+.Login-detail-parag ul {
+    margin-left: -45px;
+}
+.Login-detail-parag ul li{
+	list-style:none;
+	display:inline;
+	
+	}
+.Login-detail-parag li a{
+	text-decoration:none;
+	color:#7e7e7e;
+	width:50%;
+	}
+.Login-detail-parag label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.Login-detail-parag span{
+	color:#7e7e7e;
+}
+.Login-detail-parag input[type=radio], input[type=checkbox] {
+    margin: 4px 8px 0px;
+    margin-top: 1px \9;
+    line-height: normal;
+}
+.login-form .form-control.textarea-log {
+    display: block;
+    width: 100%;
+    height: 120px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #cdcdcd;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d2d2d2;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.dont-have-account{
+	color:#7e7e7e;
+	margin:0px auto;
+	text-align:center;
+	}
+.dont-have-account h3{
+	
+	text-transform:uppercase;
+	}
+.dont-have-account a{
+	color:#2b88d9;
+	text-decoration:none;
+	
+	}
+	/*---------------------------Signup(annam's css)--------------------------*/
+
+.signup-Details{
+    font-family: 'FranklinGothic-Book';
+    background-color: #fff;
+    padding: 40px 0px;
+    margin: 0px auto;
+    font-size: 16px;
+    margin-top: 80px;
+}
+.signup-Details h2 {
+    color: #2b88d9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+.signup-Details-form {
+    background-color: #f5f5f5;
+    margin: 40px 0px 60px 0px;
+    padding: 50px 70px 30px 70px;
+    border: none;
+    border-radius: 2px;
+}
+.signup-Details-form:hover {
+-moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	
+}
+.signup-Details .form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #cdcdcd;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d2d2d2;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.signup-Details-form .form-control::-webkit-input-placeholder {
+   color: #cdcdcd;
+}
+
+.signup-Details-form .form-control:-moz-placeholder { / Firefox 18- /
+   color: #cdcdcd;
+}
+
+.signup-Details-form .form-control::-moz-placeholder {  / Firefox 19+ /
+   color: #cdcdcd;
+}
+
+.signup-Details-form .form-control:-ms-input-placeholder {  
+   color: #cdcdcd;
+}
+.btn-signup-Details-form {
+	 display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	background-color:#2b88d9;
+	width: 100%;
+	color:#fff;
+	display: inline-block;
+  vertical-align: middle
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+   height:40px;
+   margin-top:5px;
+   text-transform:uppercase;
+}
+/* Sweep To Left */
+.btn-signup-Details-form:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.btn-signup-Details-form:hover, .btn-signup-Details-form:focus, .btn-signup-Details-form:active {
+  color: #2b88d9;
+
+   border: 1px solid #2b88d9;
+}
+.btn-signup-Details-form:hover:before, .btn-signup-Details-form:focus:before, .btn-signup-Details-form:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+

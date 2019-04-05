@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img
+{
+	height:500px;
+}
+
+.margin
+{
+	margin:25px 0px;	
+}
+
+.text p
+{
+	font-size:17px;
+}
+
+
+.text a
+{
+	text-align:center;	
+}
+
+.pad
+{
+	padding:20px;	
+}
+
+.pad p
+{
+	line-height:25px;
+	font-size:16px;	
+}
+
+.pad a
+{
+	margin-top:15px;
+}
+
+.line
+{
+	width:30px;
+	height:4px;
+	margin:0 auto;
+	margin-bottom:25px;
+	background-color:#000;	
+}
+
+.don p,h2
+{
+	margin-bottom:25px;	
+}
+
+.ih-item, .ih-item *
+{
+	height:201px;	
+}
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 26px;
+  line-height: 20px;
+  font-family:"Adobe Caslon Pro Bold", Arial, Helvetica, sans-serif;
+}
+
+/* Navigation */
+.navbar-right
+{
+	margin-top:10px; 
+}
+
+.navbar-default
+{
+	height:80px;	
+}
+
+.navbar-default .navbar-nav>li>a
+{
+	color:#09C;	
+}
+
+footer
+{
+	background-color:#ccc;
+}
+
+footer h3
+{
+	color:#fff;	
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus
+{
+	border-radius:8px;	
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus
+{
+	background-color:transparent;
+}
+
+.hr-red {
+    height: 2px;
+    background-color: #1052a3;
+    width: 10%;
+}
+
+.sun
+{
+	font-size:25px;
+	color:#D46D35;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+
+.navbar-toggle
+{
+	margin-top:19px;	
+}
+
+.bog h1
+{
+	font-family:"Open Sans",sans-serif;	
+	font-size: 50px;
+    font-weight: 300;
+    line-height: 105%; 	
+}
+.mar h1
+{
+	font-family:"Open Sans",sans-serif;
+}
+.li p
+{
+	font-size:16px;
+}
+	
+.mar
+{
+	font-family:"Times New Roman", Times, serif;
+	padding:40px 0px;
+	box-sizing:border-box;	
+}
+.mar h1
+{	
+	font-size: 50px;
+    font-weight: 300;
+    line-height: 105%;
+}
+
+.mar p
+{
+	color:#000;	
+}
+
+.pro
+{
+	padding:25px;
+	background-color:#fff;	
+}
+
+.pro p
+{
+	margin-top:40px;	
+}
+
+.de
+{
+
+	padding:25px;
+	background-color:#FFF;
+}
+
+.con
+{
+	padding:25px;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+	font-size:18px;
+}
+body
+{
+	font-size:18px;
+}
+.navbar
+{
+	font-family:"Times New Roman", Times, serif;
+}
